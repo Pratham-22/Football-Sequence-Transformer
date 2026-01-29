@@ -81,21 +81,21 @@ Below are examples of masked-action prediction in different possession types.
 **Colored dots:** model’s top-3 predictions when an action is masked
 
 ### Shot-ending possession
-![Shot possession](visuals/vis_shot_possession.png)
+![Shot possession](visual/vis_shot_possession.png)
 
 The model assigns higher probability to shot-like actions when the surrounding context resembles attacking build-ups.
 
 ---
 
 ### Slow / broken possession
-![Turnover possession](visuals/vis_turnover_possession.png)
+![Turnover possession](visual/vis_turnover_possession.png)
 
 Here, predictions are more uncertain, reflecting ambiguous or stalled sequences.
 
 ---
 
 ### Dribble-heavy possession
-![Dribble possession](visuals/vis_dribble_possession.png)
+![Dribble possession](visual/vis_dribble_possession.png)
 
 The model learns that aggressive ball-carrying patterns often precede shots, even when individual events are masked.
 
